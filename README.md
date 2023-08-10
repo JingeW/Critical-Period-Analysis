@@ -23,7 +23,7 @@ We found the important role that the Critical Period played in the learning phas
 ![The Grad-CAM for an example face](Figs/Fig2-E.png)
 ![The Grad-CAM group average across faces](Figs/Fig2-F.png)
 ## Recovery
-We also proposed a method to recover the impairments caused during the Critical Period with an even extremely low learning rate.
+We also proposed a method to recover the impairments caused during the Critical Period with an extremely low learning rate.
 
 ![KL-AT](Figs/Fig6-A.png)
 
