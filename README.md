@@ -28,3 +28,6 @@ We also proposed a method to recover the impairments caused during the Critical 
 ![KL-AT](Figs/Fig6-A.png)
 
 ![Grad-CAM](Figs/Fig6-D.png)
+
+## How to cite this material
+10.5281/zenodo.8240219
