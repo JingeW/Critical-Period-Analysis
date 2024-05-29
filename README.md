@@ -32,7 +32,9 @@ We also proposed a method to recover the impairments caused during the Critical 
 
 With Knowledge Distillation and Attention Transfer, we recovered the accuracy of the impaired model.
 
-<img src="Figs/Result.png" width="500"> <img src="Figs/Fig6-D.png" width="500">
+<img src="Figs/Result.png" width="450"> <img src="Figs/Fig6-D.png" width="500">
+
+The recovery is also confirmed by statistical metrics
 
 <img src="Figs/Result_1.png" width="1000">
 
