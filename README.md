@@ -36,7 +36,7 @@ With Knowledge Distillation and Attention Transfer, we recovered the accuracy of
 
 The recovery is also confirmed by statistical metrics
 
-<img src="Figs/Result_1.png" width="1000">
+<img src="Figs/Result_stat.png" width="1000">
 
 ## Citation
 
