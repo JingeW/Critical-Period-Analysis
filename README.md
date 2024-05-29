@@ -1,5 +1,7 @@
 # Critical Period Analysis on Face Recognition
-This project is an analysis of how the Critical Period plays a role in the face-learning process with deep neural networks (DNNs). 
+This is the code repository for the [paper](https://www.cell.com/patterns/pdf/S2666-3899(23)00297-0.pdf)
+
+Our project analyzes how the Critical Period plays a role in the face-learning process with deep neural networks (DNNs). 
 ## Requirements
 1. numpy
 2. pandas
@@ -14,11 +16,11 @@ Here are some examples of the data:
 
 ![Data Exp](Figs/Fig1-A.png)
 ## Data Preprocessing
-We applied the foveate blurring to generate the data with different eye fixations.
+We applied foveate blurring to generate the data using different eye fixations.
 
 ![Data Prep](Figs/Fig1-C.png)
 ## Observations
-We found the important role that the Critical Period played in the learning phase of face recognition.
+We found the critical period played an important role in the learning phase of face recognition.
 
 ![The Grad-CAM for an example face](Figs/Fig2-E.png)
 ![The Grad-CAM group average across faces](Figs/Fig2-F.png)
@@ -27,4 +29,22 @@ We also proposed a method to recover the impairments caused during the Critical 
 
 ![KL-AT](Figs/Fig6-A.png)
 
-![Grad-CAM](Figs/Fig6-D.png)
+
+With Knowledge Distillation and Attention Transfer, we recovered the accuracy of the impaired model.
+
+<img src="Figs/Result.png" width="500"> <img src="Figs/Fig6-D.png" width="500">
+
+<img src="Figs/Result_1.png" width="1000">
+
+## Citation
+
+@article{wang2024critical,
+  title={A critical period for developing face recognition},
+  author={Wang, Jinge and Cao, Runnan and Chakravarthula, Puneeth N and Li, Xin and Wang, Shuo},
+  journal={Patterns},
+  volume={5},
+  number={2},
+  year={2024},
+  publisher={Elsevier}
+}
+
