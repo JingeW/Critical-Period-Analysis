@@ -15,7 +15,9 @@ We provide a full computational account for face-learning behaviors by using dee
 7. torchvision
 
 ## Data
+The dataset used in this project is [CASIA-WebFace](https://www.kaggle.com/datasets/debarghamitraroy/casia-webface). \
 You can download all the data used in this project with the [link](https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9cFOIhT78y1l/view).
+
 Here are some examples of the data:
 
 ![Data Exp](Figs/Fig1-A.png)
