@@ -1,9 +1,10 @@
 # Critical Period Analysis on Face Recognition
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
-This is the code repository for the [paper](https://www.cell.com/patterns/pdf/S2666-3899(23)00297-0.pdf)
+We provide a full computational account for face-learning behaviors by using deep artificial neural networks and show that impaired face-learning can be restored when providing information within a critical period.
 
-Our project analyzes how the Critical Period plays a role in the face-learning process with deep neural networks (DNNs). 
+📃 [Read the Full Paper](https://www.cell.com/patterns/pdf/S2666-3899(23)00297-0.pdf)
+
 ## Requirements
 1. numpy
 2. pandas
@@ -12,11 +13,17 @@ Our project analyzes how the Critical Period plays a role in the face-learning p
 5. matplotlib
 6. sklearn
 7. torchvision
+
 ## Data
-You can download all the data used in this project with the [link](https://drive.google.com/file/d/1mYLO-ZxjkAV4EAXfbeYySsnk2KcHr4Y-/view?usp=sharing).
+You can download all the data used in this project with the [link](https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9cFOIhT78y1l/view).
 Here are some examples of the data:
 
 ![Data Exp](Figs/Fig1-A.png)
+
+## Disclaimer
+This project is for academic research purposes only. The code in this repository is released under the MIT License.
+If you use the data provided, please cite *Yi, Dong, et al. "Learning face representation from scratch." arXiv preprint arXiv:1411.7923 (2014).*
+
 ## Data Preprocessing
 We applied foveate blurring to generate the data using different eye fixations.
 
