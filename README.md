@@ -1,4 +1,6 @@
 # Critical Period Analysis on Face Recognition
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+
 This is the code repository for the [paper](https://www.cell.com/patterns/pdf/S2666-3899(23)00297-0.pdf)
 
 Our project analyzes how the Critical Period plays a role in the face-learning process with deep neural networks (DNNs). 
